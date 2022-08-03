@@ -1,0 +1,10 @@
+body{background-color:rgb(44,41,45);font-family:arial;color:white}
+h1{color:rgb(128,127,255);font-family:verdana}
+.maindiv{
+    background-color:rgb(78,72,79);
+    color:rgb(214,210,215);
+    margin:auto;
+    width:80%;
+    padding:20px;
+    border-radius:25px;
+}
