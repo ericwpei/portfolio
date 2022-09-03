@@ -1,5 +1,5 @@
 body{background-color: rgb(35,35,35);font-family: arial;color: white}
-h1{color: rgb(128,127,255);font-family: verdana}
+
 .maindiv{
     background-color: rgb(78,72,79);
     color: rgb(214,210,215);
@@ -10,11 +10,21 @@ h1{color: rgb(128,127,255);font-family: verdana}
     text-align: center;
 }
 
+.maindiv h1{
+    color: white;
+    font-family: verdana;
+    font-size: 3rem;
+}
+
 .seconddiv{
     background-color: white;
     color: black;
     width: 100%;
-    padding: 5px;
     border-radius: 25px;
     text-align: center;
+}
+
+.seconddiv h1{
+    color: rgb(128,127,255);
+    font-family: verdana;
 }
