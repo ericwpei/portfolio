@@ -1,7 +1,12 @@
-body {background-color: rgb(35,35,35);font-family: arial;color: white}
-
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(35,35,35);
+    font-family: arial;
+    color: white;
+    position: absolute;
 }
 
 .maindiv {
@@ -9,7 +14,7 @@ html {
     color: rgb(214,210,215);
     margin: auto;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0; 
     right: 0;
