@@ -1,22 +1,30 @@
-body{background-color: rgb(35,35,35);font-family: arial;color: white}
+body {background-color: rgb(35,35,35);font-family: arial;color: white}
 
-.maindiv{
+html {
+    scroll-behavior: smooth;
+}
+
+.maindiv {
     background-color: rgb(78,72,79);
     color: rgb(214,210,215);
     margin: auto;
     width: 100%;
-    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    right: 0;
+    bottom: 0;
     border-radius: 25px;
     text-align: center;
 }
 
-.maindiv h1{
+.maindiv h1 {
     color: white;
     font-family: verdana;
     font-size: 3rem;
 }
 
-.seconddiv{
+.seconddiv {
     background-color: white;
     color: black;
     width: 100%;
@@ -24,7 +32,7 @@ body{background-color: rgb(35,35,35);font-family: arial;color: white}
     text-align: center;
 }
 
-.seconddiv h1{
+.seconddiv h1 {
     color: rgb(128,127,255);
     font-family: verdana;
 }
